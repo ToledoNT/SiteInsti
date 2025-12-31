@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function CTAProcess() {
   return (
     <section className="mx-auto mt-32 max-w-5xl px-6">
@@ -11,12 +13,12 @@ export function CTAProcess() {
           desenhar a solução juntos.
         </p>
 
-        <a
-          href="#contato"
-          className="mt-8 inline-block rounded-xl bg-zinc-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
+        <Link
+          href="/contact"
+          className="mt-8 inline-flex items-center justify-center rounded-xl bg-zinc-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
         >
           Entrar em contato
-        </a>
+        </Link>
       </div>
     </section>
   );

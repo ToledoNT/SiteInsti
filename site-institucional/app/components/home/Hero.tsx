@@ -28,9 +28,9 @@ export function Hero() {
           Solicitar orçamento
         </button>
 
-        <button className="rounded-full border border-zinc-300 px-8 py-4 font-medium text-zinc-900 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-50 dark:hover:bg-zinc-900">
+        {/* <button className="rounded-full border border-zinc-300 px-8 py-4 font-medium text-zinc-900 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-50 dark:hover:bg-zinc-900">
           Ver serviços
-        </button>
+        </button> */}
       </div>
     </section>
   );
