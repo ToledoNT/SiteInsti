@@ -152,17 +152,7 @@ export function Services() {
                     <span className="text-zinc-700 dark:text-zinc-300">{feature}</span>
                   </li>
                 ))}
-              </ul>
-              
-              {/* Botão de ação */}
-              <Link
-                href={service.link}
-                className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 transition-all hover:gap-3 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
-              >
-                <span>Saiba mais</span>
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-              
+              </ul>              
               {/* Efeito decorativo */}
               <div className="absolute bottom-0 left-0 right-0 h-1 w-0 bg-gradient-to-r from-indigo-500 to-cyan-500 transition-all duration-500 group-hover:w-full" />
             </div>
