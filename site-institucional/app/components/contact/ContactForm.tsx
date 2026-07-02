@@ -17,13 +17,11 @@ export function ContactForm() {
     e.preventDefault();
     setLoading(true);
     
-    // Simulando envio
     setTimeout(() => {
       setLoading(false);
       setSuccess(true);
       setFormData({ name: "", email: "", phone: "", message: "" });
       
-      // Reset success message after 5 seconds
       setTimeout(() => setSuccess(false), 5000);
     }, 2000);
   };

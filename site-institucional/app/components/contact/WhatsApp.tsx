@@ -42,7 +42,7 @@ export function ContactWhatsApp() {
         <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
           <li className="flex items-center gap-2">
             <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-            <span>Resposta rápida (2 horas)</span>
+            <span>Resposta rápida (4 horas)</span>
           </li>
           <li className="flex items-center gap-2">
             <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
@@ -57,11 +57,11 @@ export function ContactWhatsApp() {
 
       {/* Botão com o mesmo estilo do outro componente */}
       <a
-        href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20conversar%20sobre%20um%20projeto."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group mt-8 inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-emerald-600 to-green-600 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-emerald-500/30 focus:outline-none focus:ring-4 focus:ring-emerald-500/50 active:scale-95"
-      >
+  href="https://wa.me/5554992048029?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20GC%20Connect."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mt-8 inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-green-600 to-emerald-600 px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-green-600/20 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-green-600/30 focus:outline-none focus:ring-4 focus:ring-green-500/50 active:scale-95 sm:w-auto"
+>
         Conversar no WhatsApp
         <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
       </a>
